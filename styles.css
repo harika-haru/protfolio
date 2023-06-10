@@ -58,45 +58,36 @@ body{
     width:20%;
     transform: scaleX(1.0);
   }
-  
-  .contact{
-    color: aliceblue;
-    font-size:large;
-    margin-top: 0px;
-    position: absolute;
-    top: 37%;
-    left: 0;
+
+  .effect{
+    color: #b3ffff;
   }
-  
+  .effect:hover{
+    color: aqua;
+    box-shadow:0 0 5px  rgba(229, 229, 229, 0.5) ;
+    width: 140px;
+    transform: scale(1.0);
+  }
+  .contact,.skills,.languages,.hobbies{
+    color: antiquewhite;
+    font-size: 20px;
+  }
+
   h3:hover{
     color: rgb(244, 144, 255);
     box-shadow: 0 0 5px  rgba(229, 229, 229, 0.5) ; 
     width:20%;
     transform: scaleX(1.0);
   }
-  .skills{
-    color: aliceblue;
-    margin-top: 5px;
-    font-size: large;
-  }
+ 
   h3{
     margin-left: 50px;
     margin-top: 40px;
     font-size: large;
     color: white;
   }
-  .languages{
-    color: aliceblue;
-    margin-top: 0px;
-    font-size: large;
-  }
-  
-  .hobbies{
-    color: aliceblue;
-    margin-top: 0px;
-    font-size: large;
-  }
-  
+ 
+
   .achievement{
     color: aliceblue;
     position:absolute;
